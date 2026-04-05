@@ -1,0 +1,12 @@
+python test_video.py \
+    --model_path_i ./checkpoints/cvpr2025_image.pth.tar \
+    --model_path_p ./checkpoints/cvpr2025_video.pth.tar \
+    --rate_num 4 \
+    --test_config ./dataset_config_example_yuv420.json \
+    --cuda 1 \
+    -w 6 \
+    --write_stream 1 \
+    --force_zero_thres 0.12 \
+    --output_path output_intra.json \
+    --verbose 2 \
+    --force_intra_period 1

@@ -1,0 +1,13 @@
+{
+    "root_path": "/home/hynx/data/data",
+    "test_classes": {
+        "Kodak": {
+            "test": 1,
+            "base_path": "Kodak",
+            "src_type": "png",
+            "sequences": {
+                "1":       {"width": 768, "height": 512, "frames": 24, "intra_period": -1}
+            }
+        }
+    }
+}

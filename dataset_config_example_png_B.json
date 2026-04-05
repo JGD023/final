@@ -1,0 +1,17 @@
+{
+    "root_path": "/home/hynx/data/data",
+    "test_classes": {
+        "HEVC_B": {
+            "test": 1,
+            "base_path": "HEVC_B_png",
+            "src_type": "png",
+            "sequences": {
+                "BQTerrace_1920x1080_60fps_8bit_P420":       {"width": 1920, "height": 1080, "frames": 600, "intra_period": -1},
+                "BasketballDrive_1920x1080_50fps_8bit_P420": {"width": 1920, "height": 1080, "frames": 500, "intra_period": -1},
+                "Cactus_1920x1080_50fps_8bit_P420":          {"width": 1920, "height": 1080, "frames": 500, "intra_period": -1},
+                "Kimono1_1920x1080_24fps_8bit_P420":         {"width": 1920, "height": 1080, "frames": 240, "intra_period": -1},
+                "ParkScene_1920x1080_24fps_8bit_P420":       {"width": 1920, "height": 1080, "frames": 240, "intra_period": -1}
+            }
+        }
+    }
+}
