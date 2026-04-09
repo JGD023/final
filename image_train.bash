@@ -4,5 +4,5 @@ python train_image.py \
     --gpu_num 6 \
     --batch_size 16 \
     --save_dir ./experiments/rt_v1 \
-    --lr 1e-4 \
-    --epochs 300
+    --lr 5e-6 \
+    --epochs 1200
